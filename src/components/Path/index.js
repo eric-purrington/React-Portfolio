@@ -2,7 +2,7 @@ import React from "react";
 
 function Path(props) {
     return (
-        <path fill-rule={props.fillrule} clip-rule={props.cliprule} d={props.d} fill={props.fill} />
+        <path fillRule={props.fillrule} clipRule={props.cliprule} d={props.d} fill={props.fill} />
     )
 }
 

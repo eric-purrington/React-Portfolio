@@ -1,10 +1,23 @@
 import React from "react";
+import "./style.css";
 
 function Navbar() {
     return (
-        <div>
-            
-        </div>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img className="myLilImg" src="Images/lilme.png" alt="little dnd character" />
+            <a className="navbar-brand" href="/">Eric Purrington</a>
+
+            <button className="navbar-toggler" type="button" data-toggle="collapse"     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+        
+            <div className="collapse navbar-collapse justify-content-end"   id="navbarSupportedContent">
+                <a className="nav-item nav-link" href="/">Home</a>
+                <a className="nav-item nav-link" href="/about">About</a>
+                <a className="nav-item nav-link" href="/projects">Projects</a>
+                <a className="nav-item nav-link" href="/contact">Contact</a>
+            </div>
+        </nav>
     )
 }
 

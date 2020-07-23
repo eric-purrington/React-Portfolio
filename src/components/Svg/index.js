@@ -9,9 +9,12 @@ function Svg(props) {
     }
 
     return (
-        <svg className="svgIcon" viewBox={props.viewBox}>
-            {paths}
-        </svg>
+        <div className="iconHolder col-sm">
+            <svg id={props.name} className="svgIcon" viewBox={props.viewBox}>
+                {paths}
+            </svg> <br />
+            <label htmlFor={props.name}>{props.name}</label>
+        </div>
     )
 }
 

@@ -1,0 +1,17 @@
+.footer {
+    background-color: darkred;
+    color: white;
+    padding: 50px 10px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+.fab, .fas {
+    margin: 10px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.fab:hover, .fas:hover {
+    color: #343a40;
+}

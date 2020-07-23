@@ -1,0 +1,19 @@
+.nav-item {
+    font-size: larger;
+    color: white;
+}
+
+.nav-item:hover {
+    color: #343a40;
+}
+
+.navbar {
+    background-color: darkred !important;
+}
+
+.myLilImg {
+    height: 100px;
+    width: auto;
+    border-radius: 300px;
+    margin-right: 10px;
+}

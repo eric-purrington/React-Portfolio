@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.techHeader {
+    margin-top: 100px;
+}
