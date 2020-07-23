@@ -2,7 +2,7 @@
     {
         "title": "TinyLearn",
         "description": "A microlearning application that serves a random page from Wikipedia and allows users to save and rate that page for later learning. This app was inspired by many wasted moments in quarantine.",
-        "imageURL": "https://user-images.githubusercontent.com/60047114/84955574-6135ca00-b0ac-11ea-913e-80c0f46e3065.png",
+        "imageURL": "Images/TinyLearn.gif",
         "gitURL": "https://github.com/eric-purrington/TinyLearn",
         "deployedURL": "https://young-retreat-53983.herokuapp.com/",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MySQL", "Handlebars"]
@@ -37,7 +37,7 @@
     }, {
         "title": "D&D Search",
         "description": "This is a simple application I created for my D&D party early on in my coding life. Searching Google everytime you have a question about your class/race/weapon/spell gets a little old, so I made an app that puts it all together with an easy navigation system.",
-        "imageURL": "Images/DnD.png",
+        "imageURL": "Images/DnDSearch.gif",
         "gitURL": "https://github.com/eric-purrington/DnD_Search",
         "deployedURL": "https://eric-purrington.github.io/DnD_Search",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery"]

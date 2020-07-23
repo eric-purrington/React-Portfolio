@@ -12,6 +12,7 @@ function Projects() {
                 <ProjectsCon>
                 {projects.map(project => (
                     <Project
+                    key = {project.title}
                     title={project.title}
                     description={project.description}
                     imageURL={project.imageURL}

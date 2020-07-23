@@ -1,0 +1,33 @@
+h3, h4 {
+    margin: 20px 0px;
+}
+
+.techHeader {
+    margin-top: 50px;
+}
+
+.project-card {
+    margin-bottom: 100px;;
+}
+
+.col-xl {
+    padding: 20px;
+}
+
+.projectURLs {
+    padding: 10px;
+    color: white;
+    background-color: darkred;
+    margin: 30px 10px 40px 10px;
+    border-radius: 10px;
+}
+
+.projectURLs:hover {
+    color: #343a40;
+    text-decoration: none;
+}
+
+.projectSS {
+    max-width: 100%;
+    height: auto;
+}
