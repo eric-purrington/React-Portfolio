@@ -1,10 +1,9 @@
 import React from "react";
 import Container from "../components/Container";
 import ProjectsCon from "../components/ProjectsCon";
-import Card from "../components/Card";
+import Project from "../components/Project";
 import Footer from "../components/Footer";
 import projects from "../utils/projects.json";
-import icons from "../utils/icons.json";
 
 function Projects() {
     return (
@@ -12,7 +11,7 @@ function Projects() {
             <Container>
                 <ProjectsCon>
                 {projects.map(project => (
-                    <Card
+                    <Project
                     title={project.title}
                     description={project.description}
                     imageURL={project.imageURL}
