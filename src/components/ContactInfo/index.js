@@ -3,8 +3,8 @@ import "./style.css"
 
 function ContactInfo() {
     return (
-        <div>
-
+        <div className="contactCon">
+            <h3>Let's work together!</h3>
         </div>
     )
 }

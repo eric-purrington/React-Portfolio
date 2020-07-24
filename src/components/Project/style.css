@@ -17,7 +17,7 @@ h3, h4 {
 .projectURLs {
     padding: 10px;
     color: white;
-    background-color: darkred;
+    background-color: rgb(19, 76, 102);
     margin: 30px 10px 40px 10px;
     border-radius: 10px;
 }
