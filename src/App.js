@@ -4,11 +4,11 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact"
 import Navbar from "./components/Navbar";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -16,7 +16,7 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
