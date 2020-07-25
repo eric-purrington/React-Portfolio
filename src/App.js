@@ -11,16 +11,16 @@ function App() {
     <HashRouter>
       <div>
         <Navbar />
-        <Route exact path="/">
+        <Route exact path="/React-Portfolio/">
           <Home />
         </Route>
-        <Route exact path="/about">
+        <Route exact path="/React-Portfolio/about">
           <About />
         </Route>
-        <Route exact path="/projects">
+        <Route exact path="/React-Portfolio/projects">
           <Projects />
         </Route>
-        <Route exact path="/contact">
+        <Route exact path="/React-Portfolio/contact">
           <Contact />
         </Route>
       </div>
