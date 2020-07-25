@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 import lilme from "../../images/lilme.png";
 
 function Navbar() {
@@ -13,10 +14,10 @@ function Navbar() {
             </button>
         
             <div className="collapse navbar-collapse justify-content-end"   id="navbarSupportedContent">
-                <a className="nav-item nav-link" href="/">Home</a>
-                <a className="nav-item nav-link" href="#/about">About</a>
-                <a className="nav-item nav-link" href="#/projects">Projects</a>
-                <a className="nav-item nav-link" href="#/contact">Contact</a>
+                <Link className="nav-item nav-link" to="/">Home</Link>
+                <Link className="nav-item nav-link" to="/about">About</Link>
+                <Link className="nav-item nav-link" to="/projects">Projects</Link>
+                <Link className="nav-item nav-link" to="/contact">Contact</Link>
                 <a className="nav-item nav-link" href="https://docs.google.com/document/d/1p017outhH1KKHGNTE0uOz2DamEU9NH1m3uNzBDrNu_g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
         </nav>
