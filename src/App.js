@@ -4,16 +4,18 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact"
 import Navbar from "./components/Navbar";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
-        <Navbar />
-        <Route exact path="/React-Portfolio/" component={Home} />
-        <Route path="/React-Portfolio/about" component={About} />
-        <Route path="/React-Portfolio/projects" component={Projects} />
-        <Route path="/React-Portfolio/contact" component={Contact} />
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
     </BrowserRouter>
   )
 }
