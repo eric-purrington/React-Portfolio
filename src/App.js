@@ -4,11 +4,11 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact"
 import Navbar from "./components/Navbar";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <Navbar />
         <Route exact path="/">
@@ -24,7 +24,7 @@ function App() {
           <Contact />
         </Route>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
