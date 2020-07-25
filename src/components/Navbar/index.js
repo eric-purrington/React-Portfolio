@@ -13,10 +13,10 @@ function Navbar() {
             </button>
         
             <div className="collapse navbar-collapse justify-content-end"   id="navbarSupportedContent">
-                <a className="nav-item nav-link" href="/React-Portfolio/">Home</a>
-                <a className="nav-item nav-link" href="/React-Portfolio/about">About</a>
-                <a className="nav-item nav-link" href="/React-Portfolio/projects">Projects</a>
-                <a className="nav-item nav-link" href="/React-Portfolio/contact">Contact</a>
+                <a className="nav-item nav-link" href="/">Home</a>
+                <a className="nav-item nav-link" href="/about">About</a>
+                <a className="nav-item nav-link" href="/projects">Projects</a>
+                <a className="nav-item nav-link" href="/contact">Contact</a>
                 <a className="nav-item nav-link" href="https://docs.google.com/document/d/1p017outhH1KKHGNTE0uOz2DamEU9NH1m3uNzBDrNu_g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
         </nav>
