@@ -10,10 +10,10 @@ function App() {
   return (
     <BrowserRouter>
         <Navbar />
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/React-Portfolio/" component={Home} />
+        <Route path="/React-Portfolio/about" component={About} />
+        <Route path="/React-Portfolio/projects" component={Projects} />
+        <Route path="/React-Portfolio/contact" component={Contact} />
     </BrowserRouter>
   )
 }
