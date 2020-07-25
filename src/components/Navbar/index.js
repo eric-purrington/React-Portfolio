@@ -1,10 +1,11 @@
 import React from "react";
 import "./style.css";
+import lilme from "../../images/lilme.png";
 
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <img className="myLilImg" src="Images/lilme.png" alt="little dnd character" />
+            <img className="myLilImg" src={lilme} alt="little dnd character" />
             <a className="navbar-brand" href="/">Eric Purrington</a>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse"     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

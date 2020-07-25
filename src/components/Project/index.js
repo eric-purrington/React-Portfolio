@@ -4,10 +4,10 @@ import icons from "../../utils/icons.json";
 import "./style.css";
 
 function Project(props) {
-
+    const {title, description, imageURL, gitURL, deployedURL, tech} = props;
     let techs = icons.filter(icon => {
-        for (let i = 0; i < props.tech.length; i++) {
-            const usedTech = props.tech[i];
+        for (let i = 0; i < tech.length; i++) {
+            const usedTech = tech[i];
             if (icon.name === usedTech) {
                 return icon;
             } 
@@ -17,14 +17,14 @@ function Project(props) {
     return (
         <div className="row project-card">
             <div className="col-xl">
-                <h3 className="project-title">{props.title}</h3>
-                <img className="projectSS" src={props.imageURL} alt={props.title} />
+                <h3 className="project-title">{title}</h3>
+                <img className="projectSS" src={require(`../../images/${imageURL}.gif`)} alt={title} />
             </div>
             <div className="col-xl">
                 <h4>Description:</h4>
-                <p>{props.description}</p>
-                <a className="projectURLs" href={props.gitURL} target="_blank" rel="noopener noreferrer">Github Page</a>
-                <a className="projectURLs" href={props.deployedURL} target="_blank" rel="noopener noreferrer">Live App</a>
+                <p>{description}</p>
+                <a className="projectURLs" href={gitURL} target="_blank" rel="noopener noreferrer">Github Page</a>
+                <a className="projectURLs" href={deployedURL} target="_blank" rel="noopener noreferrer">Live App</a>
                 <h4 className="techHeader">Technologies:</h4>
                 <div className="row">
                     {techs.map(icon => (

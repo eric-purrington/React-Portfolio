@@ -4,27 +4,27 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact"
 import Navbar from "./components/Navbar";
-import { HashRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div>
         <Navbar />
-        <Route exact path="/React-Portfolio/">
+        <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/React-Portfolio/about">
+        <Route exact path="/about">
           <About />
         </Route>
-        <Route exact path="/React-Portfolio/projects">
+        <Route exact path="/projects">
           <Projects />
         </Route>
-        <Route exact path="/React-Portfolio/contact">
+        <Route exact path="/contact">
           <Contact />
         </Route>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 

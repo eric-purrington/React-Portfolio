@@ -1,11 +1,12 @@
 import React from "react";
+import BlueMountains from "../../images/BlueMountains.jpg"
 import "./style.css"
 
 function Footer() {
 
     return (
         <div>
-            <img className="mountains" src="Images/BlueMountains.jpg" alt="blue mountains" />
+            <img className="mountains" src={BlueMountains} alt="blue mountains" />
             <div className="container-fluid text-center footer">
                 <div className="textHolder">
                     <a href="https://github.com/eric-purrington" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-3x"></i></a>

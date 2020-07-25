@@ -2,42 +2,42 @@
     {
         "title": "TinyLearn",
         "description": "A microlearning application that serves a random page from Wikipedia and allows users to save and rate that page for later learning. This app was inspired by many wasted moments in quarantine.",
-        "imageURL": "Images/TinyLearn.gif",
+        "imageURL": "TinyLearn",
         "gitURL": "https://github.com/eric-purrington/TinyLearn",
         "deployedURL": "https://young-retreat-53983.herokuapp.com/",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MySQL", "Handlebars"]
     }, {
         "title": "Fear Setter",
         "description": "This is a fear setting application. It allows users to add and conquer fears of a day or month and get points for doing so. It also grants the ability to dive deep into a big fear; looking at consequences and worse case scenarios. Fear Setter saves progress along the path of conquering.",
-        "imageURL": "Images/FearSetter.gif",
+        "imageURL": "FearSetter",
         "gitURL": "https://github.com/eric-purrington/Project-1_Fear-Setter",
         "deployedURL": "https://eric-purrington.github.io/Project-1_Fear-Setter",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery"]
     }, {
         "title": "Fitness Monitor",
         "description": "This application allows a user to track their workouts in a week. The user can add exercises to previous workouts or start new ones. The statistics of previous workouts are portrayed on graphs.",
-        "imageURL": "Images/FitnessMonitor.gif",
+        "imageURL": "FitnessMonitor",
         "gitURL": "https://github.com/eric-purrington/Fitness-Monitor",
         "deployedURL": "https://ep-fitness-monitor.herokuapp.com/",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MongoDB"]
     }, {
         "title": "Budget Tracker",
         "description": "A common budget tracking app that functions both online and offline. It granted me the opportunity to explore some client-side database capabilities while refining my scripting abilities.",
-        "imageURL": "Images/BudgetTracker.gif",
+        "imageURL": "BudgetTracker",
         "gitURL": "https://github.com/eric-purrington/Budget-Tracker",
         "deployedURL": "https://ep-budget-tracker.herokuapp.com/",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MongoDB"]
     }, {
         "title": "Burger Eater",
         "description": "This application allows a burger connoisseur to keep track of all the burgers they have and would like to devour. It allowed me to sharpen my database and handlebars skills.",
-        "imageURL": "Images/BurgerEater.gif",
+        "imageURL": "BurgerEater",
         "gitURL": "https://github.com/eric-purrington/Burger-Eater",
         "deployedURL": "ep-burger-eater.herokuapp.com/",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MySQL", "Handlebars"]
     }, {
         "title": "D&D Search",
         "description": "This is a simple application I created for my D&D party early on in my coding life. Searching Google everytime you have a question about your class/race/weapon/spell gets a little old, so I made an app that puts it all together with an easy navigation system.",
-        "imageURL": "Images/DnDSearch.gif",
+        "imageURL": "DnDSearch",
         "gitURL": "https://github.com/eric-purrington/DnD_Search",
         "deployedURL": "https://eric-purrington.github.io/DnD_Search",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery"]
