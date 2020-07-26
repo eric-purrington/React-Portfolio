@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.1a51c6a0.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.fcdfcc3c.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.fcdfcc3c.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.4b62d788.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.4b62d788.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.0ad08de7.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.0ad08de7.js.map",
-    "static/js/2.01da899c.chunk.js": "/React-Portfolio/static/js/2.01da899c.chunk.js",
-    "static/js/2.01da899c.chunk.js.map": "/React-Portfolio/static/js/2.01da899c.chunk.js.map",
+    "static/js/2.f193c381.chunk.js": "/React-Portfolio/static/js/2.f193c381.chunk.js",
+    "static/js/2.f193c381.chunk.js.map": "/React-Portfolio/static/js/2.f193c381.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.5eb5f5affa6a03f6d69c5f0ae938e5bd.js": "/React-Portfolio/precache-manifest.5eb5f5affa6a03f6d69c5f0ae938e5bd.js",
+    "precache-manifest.bbaf376ca1ba8a30d4c135c3df7ed1e1.js": "/React-Portfolio/precache-manifest.bbaf376ca1ba8a30d4c135c3df7ed1e1.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/css/main.1a51c6a0.chunk.css.map": "/React-Portfolio/static/css/main.1a51c6a0.chunk.css.map",
-    "static/js/2.01da899c.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.01da899c.chunk.js.LICENSE.txt",
+    "static/js/2.f193c381.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.f193c381.chunk.js.LICENSE.txt",
     "static/media/BlueMountains.jpg": "/React-Portfolio/static/media/BlueMountains.160a1cc6.jpg",
     "static/media/BudgetTracker.gif": "/React-Portfolio/static/media/BudgetTracker.6b589a70.gif",
     "static/media/BurgerEater.gif": "/React-Portfolio/static/media/BurgerEater.9499bc7f.gif",
@@ -21,12 +21,13 @@
     "static/media/FitnessMonitor.gif": "/React-Portfolio/static/media/FitnessMonitor.ffa2b6c0.gif",
     "static/media/MyImg.jpeg": "/React-Portfolio/static/media/MyImg.d84a711a.jpeg",
     "static/media/TinyLearn.gif": "/React-Portfolio/static/media/TinyLearn.49142ae9.gif",
+    "static/media/WeatherDash.gif": "/React-Portfolio/static/media/WeatherDash.a83fceb6.gif",
     "static/media/lilme.png": "/React-Portfolio/static/media/lilme.35e23602.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0ad08de7.js",
-    "static/js/2.01da899c.chunk.js",
+    "static/js/2.f193c381.chunk.js",
     "static/css/main.1a51c6a0.chunk.css",
-    "static/js/main.fcdfcc3c.chunk.js"
+    "static/js/main.4b62d788.chunk.js"
   ]
 }
