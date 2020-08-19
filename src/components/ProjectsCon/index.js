@@ -5,10 +5,10 @@ function ProjectCon({children}) {
         <div className="container-fluid projectsContainer">
             <h2>Collaborations</h2>
             <hr></hr>
-            {children.slice(0, 2)}
+            {children.slice(0, 3)}
             <h2>My Works</h2>
             <hr></hr>
-            {children.slice(2, 6)}
+            {children.slice(3, 6)}
         </div>
     )
 }

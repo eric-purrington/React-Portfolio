@@ -1,10 +1,17 @@
 [
     {
+        "title": "Vote Goat",
+        "description": "A web application that provides users with information about when, where, and how to vote in their area. It provides access their representative's contact information.",
+        "imageURL": "VoteGoat",
+        "gitURL": "https://github.com/eric-purrington/Voting-App",
+        "deployedURL": "https://vote-goat.herokuapp.com",
+        "tech": ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"]
+    }, {
         "title": "TinyLearn",
         "description": "A microlearning application that serves a random page from Wikipedia and allows users to save and rate that page for later learning. This app was inspired by many wasted moments in quarantine.",
         "imageURL": "TinyLearn",
         "gitURL": "https://github.com/eric-purrington/TinyLearn",
-        "deployedURL": "https://young-retreat-53983.herokuapp.com/",
+        "deployedURL": "https://tinylearn.herokuapp.com/",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MySQL", "Handlebars"]
     }, {
         "title": "Fear Setter",
@@ -34,12 +41,5 @@
         "gitURL": "https://github.com/eric-purrington/Burger-Eater",
         "deployedURL": "ep-burger-eater.herokuapp.com/",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MySQL", "Handlebars"]
-    }, {
-        "title": "Weather Dashboard",
-        "description": "This is a simple application I created early on in my coding life. The user can search for a city and save that city to their weather dashboard. A five-day forecast and current weather is shown for their selected city.",
-        "imageURL": "WeatherDash",
-        "gitURL": "https://github.com/eric-purrington/Weather-Dashboard",
-        "deployedURL": "https://eric-purrington.github.io/Weather-Dashboard",
-        "tech": ["HTML", "CSS", "JavaScript", "jQuery"]
     }
 ]
